@@ -66,6 +66,8 @@ license: "CC BY"
 
 ![](image/10.png){#fig-010 width=70%}
 
+[Ссылка на репозиторий](https://github.com/kvmacyuk/study_2025-2026_arch-pc)
+
 # Выводы
 
 Освоил процедуру оформления отчетов с помощью языка разметки Markdown. 
