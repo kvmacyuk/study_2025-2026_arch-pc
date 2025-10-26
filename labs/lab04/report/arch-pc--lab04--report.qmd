@@ -94,9 +94,13 @@ license: "CC BY"
 
 ![](image/15.png){#fig-015 width=70%}
 
-## Листинги написанных программ:
+# Выводы
 
-hello.asm
+Освоил процедуру компиляции и сборки программ, написанных на ассемблере NASM.
+
+# Листинги написанных программ:
+
+hello.asm:
 
 ``` assembler
 SECTION .data
@@ -117,11 +121,11 @@ _start:
         int 0x80   
 ```
 
-lab4.asm
+lab4.asm:
 
 ``` assembler
 SECTION .data
-	hello:      db "Мацюк Константин",0xa 
+	hello:      db "Matsyuk Konstantin",0xa 
 	helloLen:   EQU $ - hello
 SECTION .text
 	global _start           
@@ -137,10 +141,6 @@ _start:
         mov ebx, 0      
         int 0x80 
 ```
-
-# Выводы
-
-Освоил процедуру компиляции и сборки программ, написанных на ассемблере NASM.
 
 # Список литературы{.unnumbered}
 
